@@ -1,6 +1,5 @@
 import React from "react";
 import "./LoingSignIn.css";
-import Download from "../assets/Download.png";
 
 export const LoginSignIn = () => {
   return (

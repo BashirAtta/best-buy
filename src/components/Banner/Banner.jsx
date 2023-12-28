@@ -13,7 +13,7 @@ export const Banner = ({ image }) => {
           <button>Explore now</button>
         </div>
         <div className="category-banner-right">
-          <img src={image} alt="" srcset="" />
+          <img src={image} alt="" srcSet="" />
         </div>
       </div>
     </>

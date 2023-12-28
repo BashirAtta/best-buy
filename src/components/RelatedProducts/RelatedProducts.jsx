@@ -11,7 +11,7 @@ export const RelatedProducts = () => {
       <div className="relted-items">
         {data_product.map((item) => {
           return (
-            <div className="r-item">
+            <div key={item.id} className="r-item">
               <Item
                 key={item.id}
                 id={item.id}
