@@ -1,0 +1,23 @@
+.breadcrum {
+  padding: 10px 3%;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  color: rgb(77, 75, 75);
+  margin-top: 20px;
+}
+
+.breadcrum img {
+  height: 13px;
+}
+
+@media (max-width: 414px) {
+  .breadcrum img {
+    height: 13px;
+  }
+  .breadcrum {
+    font-size: 14px;
+  }
+}

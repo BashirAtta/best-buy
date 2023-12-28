@@ -1,0 +1,128 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  gap: 30px;
+  background: linear-gradient(0deg, #f2f7a1, white);
+  box-shadow: 0 -1px 3px -2px black;
+}
+
+.footer-log {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.footer-social-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-container hr {
+  height: 2px;
+  background-color: rgb(181, 180, 180);
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.footer-container p {
+  font-size: 17px;
+  color: grey;
+  margin: -10px 0px;
+}
+
+.footer-item {
+  color: rgb(112, 111, 111);
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.footer-item:hover {
+  color: rgb(4, 4, 4);
+  text-decoration: underline;
+}
+
+.footer-container h1 {
+  font-size: 45px;
+  color: rgb(56, 56, 56);
+}
+
+@media (415px<= width <=710px) {
+  .footer-log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+  }
+
+  .footer-container h1 {
+    font-size: 30px;
+  }
+  .footer-item {
+    font-size: 25px;
+  }
+}
+
+@media (width <= 414px) {
+  .footer-log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding: 0px;
+  }
+
+  .footer-social-items {
+    gap: 15px;
+  }
+  .footer-social-items img {
+    height: 25px;
+  }
+
+  .footer-container hr {
+    width: 80%;
+  }
+
+  .footer-container p {
+    font-size: 15px;
+  }
+
+  .footer-item {
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+  }
+
+  .footer-container h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
