@@ -9,9 +9,7 @@ export const Shop = () => {
   return (
     <>
       <Hero />
-
       <Popular />
-
       <Offer />
       <NewCollection />
       <NewsLetter />
