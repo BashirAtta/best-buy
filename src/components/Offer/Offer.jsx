@@ -1,5 +1,6 @@
 import React from "react";
 import exclusive_image from "../../assets/exclusive_image.png";
+import exclusive_image_mobile from "../../assets/exclusive_image_mobile.png";
 import "./Offer.css";
 
 export const Offer = () => {
@@ -12,7 +13,18 @@ export const Offer = () => {
         <button className="button">Check Now</button>
       </div>
       <div className="offer-right">
-        <img src={exclusive_image} alt="" srcSet="" />
+        <img
+          className="offer-rigth-image"
+          src={exclusive_image}
+          alt=""
+          srcSet=""
+        />
+        <img
+          className="offer-right-image-mobile"
+          src={exclusive_image_mobile}
+          alt=""
+          srcSet=""
+        />
       </div>
     </div>
   );

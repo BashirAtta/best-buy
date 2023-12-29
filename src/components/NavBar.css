@@ -5,7 +5,6 @@
   padding: 5px;
   box-shadow: 0 1px 3px -2px black;
   background: linear-gradient(180deg, #f2f7a1, white);
-  width: 100%;
 }
 
 .nav-log {
@@ -22,7 +21,7 @@
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 45px;
   list-style: none;
   color: rgb(84, 83, 83);
   font-size: 20px;
