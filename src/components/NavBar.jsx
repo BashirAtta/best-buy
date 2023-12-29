@@ -92,33 +92,36 @@ export const NavBar = () => {
               hideSideBar();
             }}
           >
-            <Link to="/">Shop</Link> {menu === "shop" && <hr />}
-            <hr />
+            <Link to="/">Shop</Link>
           </li>
+          <hr />
           <li
             onClick={() => {
               setMenu("men");
               hideSideBar();
             }}
           >
-            <Link to="/men">Men</Link> {menu === "men" && <hr />} <hr />
+            <Link to="/men">Men</Link>
           </li>
+          <hr />
           <li
             onClick={() => {
               setMenu("women");
               hideSideBar();
             }}
           >
-            <Link to="/women">Women</Link> {menu === "women" && <hr />} <hr />
+            <Link to="/women">Women</Link>
           </li>
+          <hr />
           <li
             onClick={() => {
               setMenu("kids");
               hideSideBar();
             }}
           >
-            <Link to="/kids">kids</Link> {menu === "kids" && <hr />} <hr />
+            <Link to="/kids">kids</Link>
           </li>
+          <hr />
         </ul>
         <div className="sidebar-login">
           <Link to="/LoginSignIn">
