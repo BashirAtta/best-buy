@@ -124,8 +124,13 @@ export const NavBar = () => {
           <hr />
         </ul>
         <div className="sidebar-login">
+<<<<<<< HEAD
           <Link to="/LoginSignIn">
             <button onClick={() => hideSideBar()}>Login</button>
+=======
+          <Link onClick={() => hideSideBar()} to="/LoginSignIn">
+            <button>Login</button>
+>>>>>>> 1eab6fc6ae9fd822c78b5bda656944363ae6c428
           </Link>
           <Link onClick={() => hideSideBar()} to="/cart">
             {" "}
