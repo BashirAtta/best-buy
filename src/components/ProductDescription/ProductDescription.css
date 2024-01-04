@@ -32,8 +32,8 @@
     font-size: 16px;
     height: auto;
   }
-  .product-description {
-    margin-top: -70px;
+  .display-product-right {
+    height: auto;
   }
 }
 
@@ -50,11 +50,7 @@
     border-bottom: none;
   }
 }
-@media (max-width: 423px) {
-  .product-description {
-    margin-top: -30px;
-  }
-}
+
 @media (max-width: 414px) {
   .product-descritption-tabs div {
     padding: 8px;
@@ -71,8 +67,5 @@
     line-height: 30px;
     border-radius: 3px;
     color: rgb(97, 97, 97);
-  }
-  .product-description {
-    margin-top: -85px;
   }
 }
