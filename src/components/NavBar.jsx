@@ -125,9 +125,9 @@ export const NavBar = () => {
         </ul>
         <div className="sidebar-login">
           <Link to="/LoginSignIn">
-            <button>Login</button>
+            <button onClick={() => hideSideBar()}>Login</button>
           </Link>
-          <Link to="/cart">
+          <Link onClick={() => hideSideBar()} to="/cart">
             {" "}
             <MdOutlineShoppingCart />
             <div
